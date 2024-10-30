@@ -3,7 +3,7 @@ using CodeGen.JsonTypes;
 
 namespace CodeGen.Generators.UnitsNetGen
 {
-    internal class NumberExtensionsTestClassGenerator : GeneratorBase
+    public class NumberExtensionsTestClassGenerator : GeneratorBase
     {
         private readonly Unit[] _units;
         private readonly string _quantityName;

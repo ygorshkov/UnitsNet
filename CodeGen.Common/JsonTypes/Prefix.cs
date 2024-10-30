@@ -1,6 +1,6 @@
 namespace CodeGen.JsonTypes
 {
-    internal enum Prefix
+    public enum Prefix
     {
         // SI prefixes
         Yocto,

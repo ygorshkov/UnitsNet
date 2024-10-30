@@ -10,7 +10,7 @@ namespace CodeGen.JsonTypes
     /// <summary>
     ///     Localization of a unit, such as unit abbreviations in different languages.
     /// </summary>
-    internal class Localization
+    public class Localization
     {
         /// <summary>
         ///     Gets the unit abbreviations for a prefix, if configured.

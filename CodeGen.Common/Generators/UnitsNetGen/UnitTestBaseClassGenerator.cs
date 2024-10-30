@@ -13,7 +13,7 @@ namespace CodeGen.Generators.UnitsNetGen
     /// <item><description>UnitsNet.Tests\GeneratedCode\LengthTestsBase.g.cs</description></item>
     /// </list>
     /// </example>
-    internal class UnitTestBaseClassGenerator : GeneratorBase
+    public class UnitTestBaseClassGenerator : GeneratorBase
     {
         /// <summary>
         /// The quantity to generate test base class for.

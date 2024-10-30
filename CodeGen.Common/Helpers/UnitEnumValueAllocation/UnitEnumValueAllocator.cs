@@ -20,7 +20,7 @@ namespace CodeGen.Helpers.UnitEnumValueAllocation
     ///     Updating transitive UnitsNet dependency cause wrong unit · Issue #1068 · angularsen/UnitsNet
     ///     https://github.com/angularsen/UnitsNet/issues/1068
     /// </summary>
-    internal class UnitEnumValueAllocator
+    public class UnitEnumValueAllocator
     {
         private static readonly JsonSerializerOptions JsonOptions = new()
         {
@@ -54,7 +54,7 @@ namespace CodeGen.Helpers.UnitEnumValueAllocation
         /// <param name="jsonFile">The JSON file for storing the enum value allocations.</param>
         /// <param name="quantities">The list of quantities to ensure have unique unit enum values per quantity.</param>
         /// <returns></returns>
-        internal static QuantityNameToUnitEnumValues AllocateNewUnitEnumValues(string jsonFile, Quantity[] quantities)
+        public static QuantityNameToUnitEnumValues AllocateNewUnitEnumValues(string jsonFile, Quantity[] quantities)
         {
             var unitEnumValueAllocator = new UnitEnumValueAllocator(jsonFile);
 

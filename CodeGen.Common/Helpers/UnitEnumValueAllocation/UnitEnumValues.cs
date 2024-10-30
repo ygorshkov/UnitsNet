@@ -14,7 +14,7 @@ namespace CodeGen.Helpers.UnitEnumValueAllocation
     ///     Updating transitive UnitsNet dependency cause wrong unit · Issue #1068 · angularsen/UnitsNet
     ///     https://github.com/angularsen/UnitsNet/issues/1068
     /// </summary>
-    internal class UnitEnumNameToValue : Dictionary<string, int>
+    public class UnitEnumNameToValue : Dictionary<string, int>
     {
         private readonly Queue<int> _nextRandomAvailableValues = new();
         private static readonly Random Random = new();

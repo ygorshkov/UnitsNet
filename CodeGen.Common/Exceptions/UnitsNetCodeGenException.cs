@@ -12,6 +12,7 @@ namespace CodeGen.Exceptions
         {
         }
 
+        [Obsolete(DiagnosticId = "SYSLIB0051")]
         protected UnitsNetCodeGenException(SerializationInfo info, StreamingContext context) : base(info, context)
         {
         }

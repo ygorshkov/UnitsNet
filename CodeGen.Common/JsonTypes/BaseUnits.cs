@@ -3,7 +3,7 @@
 
 namespace CodeGen.JsonTypes
 {
-    internal class BaseUnits
+    public class BaseUnits
     {
         // 0649 Field is never assigned to
 #pragma warning disable 0649

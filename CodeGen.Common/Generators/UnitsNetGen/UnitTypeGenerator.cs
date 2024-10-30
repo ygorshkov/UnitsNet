@@ -4,7 +4,7 @@ using CodeGen.JsonTypes;
 
 namespace CodeGen.Generators.UnitsNetGen
 {
-    internal class UnitTypeGenerator : GeneratorBase
+    public class UnitTypeGenerator : GeneratorBase
     {
         private readonly Quantity _quantity;
         private readonly UnitEnumNameToValue _unitEnumNameToValue;

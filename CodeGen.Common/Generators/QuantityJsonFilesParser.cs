@@ -17,7 +17,7 @@ namespace CodeGen.Generators
     ///     This will later be used to generate source code and can be reused for different targets such as .NET framework,
     ///     .NET Core, .NET nanoFramework and even other programming languages.
     /// </summary>
-    internal static class QuantityJsonFilesParser
+    public static class QuantityJsonFilesParser
     {
         private static readonly JsonSerializerSettings JsonSerializerSettings = new JsonSerializerSettings
         {

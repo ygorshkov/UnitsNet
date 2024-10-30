@@ -8,7 +8,7 @@ namespace CodeGen
     /// <summary>
     ///     Information about a unit prefix and a static dictionary to look up prefixes.
     /// </summary>
-    internal class PrefixInfo
+    public class PrefixInfo
     {
         private const string Russian = "ru-RU";
         private const string Chinese = "zh-CN";

@@ -5,7 +5,7 @@ using CodeGen.Helpers;
 
 namespace CodeGen.Generators
 {
-    internal abstract class GeneratorBase
+    public abstract class GeneratorBase
     {
         protected readonly MyTextWriter Writer = new();
 

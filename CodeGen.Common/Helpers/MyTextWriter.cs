@@ -6,7 +6,7 @@ using System.Text;
 
 namespace CodeGen.Helpers
 {
-    internal class MyTextWriter
+    public class MyTextWriter
     {
         private readonly StringBuilder _sb = new StringBuilder();
         private string _currentIndentationString;

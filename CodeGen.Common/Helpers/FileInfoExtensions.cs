@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace CodeGen.Helpers
 {
-    internal static class FileInfoExtensions
+    public static class FileInfoExtensions
     {
         private static readonly string[] RegexHints = { ".*", "^", "\\s", "\\d" };
 

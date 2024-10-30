@@ -8,7 +8,7 @@ using CodeGen.JsonTypes;
 
 namespace CodeGen.Generators.UnitsNetGen
 {
-    internal class QuantityGenerator : GeneratorBase
+    public class QuantityGenerator : GeneratorBase
     {
         private readonly Quantity _quantity;
 

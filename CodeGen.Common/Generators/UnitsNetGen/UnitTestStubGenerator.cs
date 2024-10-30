@@ -2,7 +2,7 @@ using CodeGen.JsonTypes;
 
 namespace CodeGen.Generators.UnitsNetGen
 {
-    internal class UnitTestStubGenerator : GeneratorBase
+    public class UnitTestStubGenerator : GeneratorBase
     {
         private readonly Quantity _quantity;
 

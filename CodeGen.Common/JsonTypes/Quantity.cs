@@ -5,7 +5,7 @@ using System;
 
 namespace CodeGen.JsonTypes
 {
-    internal class Quantity
+    public class Quantity
     {
         // 0649 Field is never assigned to
 #pragma warning disable 0649

@@ -69,6 +69,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PerfTests", "PerfTests", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfTest_Startup_v4_72_0", "PerfTests\PerfTest_Startup_v4_72_0\PerfTest_Startup_v4_72_0.csproj", "{7131F7CC-BD7F-44EB-AD50-AE80CE38F28E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGen.Common", "CodeGen.Common\CodeGen.Common.csproj", "{2FA21166-5A76-4E66-83BC-B4C84404B57C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +121,10 @@ Global
 		{7131F7CC-BD7F-44EB-AD50-AE80CE38F28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7131F7CC-BD7F-44EB-AD50-AE80CE38F28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7131F7CC-BD7F-44EB-AD50-AE80CE38F28E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA21166-5A76-4E66-83BC-B4C84404B57C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA21166-5A76-4E66-83BC-B4C84404B57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA21166-5A76-4E66-83BC-B4C84404B57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA21166-5A76-4E66-83BC-B4C84404B57C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

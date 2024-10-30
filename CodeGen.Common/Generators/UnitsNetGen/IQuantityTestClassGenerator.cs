@@ -9,7 +9,7 @@ namespace CodeGen.Generators.UnitsNetGen
 {
     // ReSharper disable once InconsistentNaming
     [SuppressMessage("ReSharper", "EnforceForeachStatementBraces")]
-    internal class IQuantityTestClassGenerator : GeneratorBase
+    public class IQuantityTestClassGenerator : GeneratorBase
     {
         private readonly Quantity[] _quantities;
 
